@@ -6,7 +6,7 @@ Welcome Potential UrbanStemmer! We're excited you're willing to take this advent
 
 We're expanding to a new city and we need your help! Take the data found in the `data.json` file and store it however you'd like (e.g. hardcode it directly in the request, parse it into a separate JSON/JS file, place it into a simple db, etc).
 
-When a user arrives at the site, they must enter the zipcode they're sending flowers to. After the user has submitted/selected a zipcode, your frontend code must `GET /api/products` and only show them the flowers that are available in that zipcode. You are allowed to differentiate which products are available in whichever zipcode (e.g. "Fun Mix" can be in zipcode 80202 and 80205 while "Silly Mix" is only available in 80214). Basically, you can add attributes to the products data or create your own separate object to help you complete the task but cannot remove.
+When a user arrives at the site, they must enter the zip code they're sending flowers to. After the user has submitted/selected a zip code, your frontend code must `GET /api/products` and only show them the flowers that are available in that zip code. You are allowed to differentiate which products are available in whichever zip code (e.g. "Fun Mix" can be in zip code 80202 and 80205 while "Silly Mix" is only available in 80214). Basically, you can add attributes to the products data or create your own separate object to help you complete the task but cannot remove.
 
 - Use any version of Node you're comfortable with. You can use ES6/ES2015 if you'd like.
 - Use any backend framework (or none). Do what makes you feel comfortable.
@@ -18,8 +18,8 @@ Fork or clone away!
 
 ## Bonus Challenge #1
 
-When a user enters a valid zipcode (5-digit number) outside of the given range for that city then return a message indicating so and ask for their email with a fake signup form (doesn't actually have to submit anywhere).
+When a user enters a valid zip code (5-digit number) outside of the given range for that city then return a message indicating so and ask for their email with a fake signup form (the form doesn't actually have to submit anywhere).
 
 ## Bonus Challenge #2
 
-Whenever someone enters a new zipcode, show them a map of that zipcode from one of several map providers (e.g. Google, Mapbox, etc).
+Whenever someone enters a new zip code, show them a map of that zip code from one of several map providers (e.g. Google, Mapbox, etc).
